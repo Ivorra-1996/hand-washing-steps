@@ -1,0 +1,31 @@
+# Ignorar la carpeta de resultados del entrenamiento
+runs/
+
+# Ignorar datos de entrenamiento y validación
+train/
+valid/
+test/
+
+# Ignorar modelos entrenados
+*.pt
+
+# Ignorar archivos temporales y de caché
+*.pyc
+__pycache__/
+
+# Ignorar entornos virtuales
+venv/
+env/
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de configuración de entorno
+.env
+
+# Ignorar logs
+*.log
+
+# # Ignorar archivos de configuración
+# *.yaml
