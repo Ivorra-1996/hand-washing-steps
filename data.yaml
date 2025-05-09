@@ -3,5 +3,11 @@ val: ../valid/images
 test: ../test/images
 
 nc: 6
-names: ['step_1', 'step_2', 'step_3', 'step_4', 'step_5', 'step_6']
+names: ['paso1', 'paso2', 'paso3', 'paso4', 'paso5', 'paso6']
 
+roboflow:
+  workspace: ia-7w47y
+  project: lavia
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ia-7w47y/lavia/dataset/2

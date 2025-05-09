@@ -4,7 +4,7 @@ from ultralytics import YOLO
 # Configuración
 DATA_YAML_PATH = "./data.yaml"  # Ruta al archivo dataset.yaml
 MODEL_NAME = "yolov8n.pt"  # Modelo base preentrenado YOLO
-EPOCHS = 50  # Número de épocas de entrenamiento
+EPOCHS = 100  # Número de épocas de entrenamiento
 IMAGE_SIZE = 640  # Tamaño de la imagen para el modelo
 
 def train_model():
@@ -17,7 +17,7 @@ def train_model():
         epochs=EPOCHS,
         imgsz=IMAGE_SIZE,
         batch=16,  # Puedes ajustar este valor según tu GPU
-        device="cpu"  # Selecciona la GPU (0) o CPU (-1)
+        device="0"  # Selecciona la GPU (0) o CPU (-1)
     )
 
     print("¡Entrenamiento completado!")
