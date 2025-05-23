@@ -8,6 +8,6 @@ names: ['paso1', 'paso2', 'paso3', 'paso4', 'paso5', 'paso6']
 roboflow:
   workspace: ia-7w47y
   project: lavia
-  version: 2
+  version: 8
   license: CC BY 4.0
-  url: https://universe.roboflow.com/ia-7w47y/lavia/dataset/2
+  url: https://universe.roboflow.com/ia-7w47y/lavia/dataset/8

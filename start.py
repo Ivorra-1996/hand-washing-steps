@@ -4,8 +4,8 @@ import threading
 import time
 
 # Constantes de configuración
-MODEL_PATH = './runs/detect/train/weights/best.pt'
-CAMERA_URL = 'http://192.168.0.100:4747/video'
+MODEL_PATH = './runs/detect/train6/weights/best.pt'
+CAMERA_URL = 'http://192.168.0.82:4747/video'
 FRAME_WIDTH = 640
 FRAME_HEIGHT = 640
 FRAME_SKIP = 4  # Saltar frames para mejorar rendimiento
