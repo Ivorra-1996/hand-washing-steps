@@ -1,3 +1,9 @@
+
+# datasets
+/datasets
+/datasets1
+/datasets_2
+
 # Ignorar la carpeta de resultados del entrenamiento
 runs/
 
